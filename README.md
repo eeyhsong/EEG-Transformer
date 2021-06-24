@@ -1,3 +1,3 @@
 # EEG-Transformer
 
-*Coming soon in June.*
+## Transformer based Spatial-Temporal Feature Learning for EEG Decoding
