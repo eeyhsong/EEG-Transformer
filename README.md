@@ -6,6 +6,8 @@ At present, people usually use some methods based on convolutional neural networ
 
 URL: https://arxiv.org/abs/2106.11170
 
+![Fig1](https://user-images.githubusercontent.com/19758589/123399456-35aac100-d5d7-11eb-87ea-d480765df6b7.png)
+
 We also would like to provide some possible ideas for improvement:
 
 1.   
