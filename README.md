@@ -1,3 +1,6 @@
+Sorry for the sudden withdrawal of the core code 'Trans.py'. That's because I found that the validation process are not rigorous engough, and I'm upset and don't want to be misleading. A revised version will be opened soon.
+p.s. Recently I finished an incredibly amazing network, which will be released by Oct. I guess. Good luck.
+
 # EEG-Transformer
 
 ## Transformer based Spatial-Temporal Feature Learning for EEG Decoding
@@ -7,10 +10,5 @@ At present, people usually use some methods based on convolutional neural networ
 
 ![Fig1](https://user-images.githubusercontent.com/19758589/123399456-35aac100-d5d7-11eb-87ea-d480765df6b7.png)
 
-We also would like to provide some possible ideas for improvement:
-
-1.   
-2.   
-3.
 
 Hope this code can be useful. I would be very appreciate if you cite us in your paper. 😉 
