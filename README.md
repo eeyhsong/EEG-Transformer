@@ -2,7 +2,7 @@ Sorry for the sudden withdrawal of the core code 'Trans.py'. That's because I fo
 
 A revised version will be opened soon.
 
-p.s. Recently I finished an incredibly amazing network, which will be released by Oct. I guess. Good luck.
+p.s. Recently I finished an incredibly amazing network, which will be released by Oct. I guess. Please please please follow again. 
 
 # EEG-Transformer
 
