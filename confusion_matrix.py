@@ -33,6 +33,6 @@ def plot_confusion_matrix(y_true, y_pred, sub, title = "Confusion matrix - 2a",
     plt.xlabel('Predicted label', fontsize=30)
 
     if save_flg:
-        plt.savefig("/home/syh/Documents/MI/code/Trans/results/confusion_matrix" + str(sub) + ".png")
+        plt.savefig("confusion_matrix" + str(sub) + ".png")
 
     # plt.show()
