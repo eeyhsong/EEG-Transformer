@@ -1,5 +1,7 @@
 """
 Transformer for EEG classification
+
+The core idea is slicing, which means to split the signal along the time dimension. Slice is just like the patch in Vision Transformer.
 """
 
 
@@ -245,7 +247,7 @@ class Trans():
     def __init__(self, nsub):
         super(Trans, self).__init__()
         self.batch_size = 50
-        self.n_epochs = 2000
+        self.n_epochs = 1000
         self.img_height = 22
         self.img_width = 600
         self.channels = 1
