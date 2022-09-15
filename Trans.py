@@ -33,10 +33,10 @@ from torch.backends import cudnn
 cudnn.benchmark = False
 cudnn.deterministic = True
 
-# writer = SummaryWriter('/home/syh/Documents/MI/code/Trans/TensorBoardX/')
+# writer = SummaryWriter('./TensorBoardX/')
 
 # torch.cuda.set_device(6)
-gpus = [6]
+gpus = [0]
 os.environ['CUDA_DEVICE_ORDER'] = 'PCI_BUS_ID'
 os.environ["CUDA_VISIBLE_DEVICES"] = ','.join(map(str, gpus))
 
@@ -259,7 +259,7 @@ class Trans():
 
         self.pretrain = False
 
-        self.log_write = open("results/log_subject%d.txt" % self.nSub, "w")
+        self.log_write = open("./results/log_subject%d.txt" % self.nSub, "w")
 
         self.img_shape = (self.channels, self.img_height, self.img_width)  # something no use
 
@@ -306,8 +306,8 @@ class Trans():
         self.testLabel = self.test_label[0]
 
         # Mix the train and test data - a quick way to get start
-        # But I agree, just shuffle data is a bad measure
-        # You could choose cross validation, or get more data from more subjects, then Leave one subject out
+        # But just shuffling data is not rigorous, especially for actual BCI systems and academic paper.
+        # You could choose the original seperation in datasets or restrict cross validation.
         all_data = np.concatenate((self.allData, self.testData), 0)
         all_label = np.concatenate((self.allLabel, self.testLabel), 0)
         all_shuff_num = np.random.permutation(len(all_data))
@@ -425,7 +425,7 @@ class Trans():
 def main():
     best = 0
     aver = 0
-    result_write = open("results/sub_result.txt", "w")
+    result_write = open("./results/sub_result.txt", "w")
 
     for i in range(9):
         seed_n = np.random.randint(500)
