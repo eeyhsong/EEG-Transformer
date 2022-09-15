@@ -1,8 +1,6 @@
-Sorry for the sudden withdrawal of the core code 'Trans.py'. That's because I found that the validation process are not rigorous engough, and I'm upset and don't want to be misleading. 
-
-A revised version will be opened soon.
-
-p.s. Recently I finished an incredibly amazing network, which will be released by Oct. I guess. Please please please follow again. 
+### EEG Transformer 2.0 will coming soon with extremely good performance! 
+#### Your next baseline for EEG decoding.
+p.s. released before Nov. 2022 I guess.
 
 # EEG-Transformer
 
