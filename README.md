@@ -1,5 +1,5 @@
 ### EEG Transformer 2.0 will coming soon with extremely good performance! 
-#### Your next baseline for EEG decoding.
+#### Your next backbone for EEG decoding.
 p.s. released before Nov. 2022 I guess.
 
 # EEG-Transformer
