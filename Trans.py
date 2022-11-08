@@ -307,20 +307,6 @@ class Trans():
         self.testData = self.test_data
         self.testLabel = self.test_label[0]
 
-        # Mix the train and test data - a quick way to get start
-        # But just shuffling data is not rigorous, especially for actual BCI systems and academic paper.
-        # You could choose the original seperation in datasets or restrict cross validation.
-        all_data = np.concatenate((self.allData, self.testData), 0)
-        all_label = np.concatenate((self.allLabel, self.testLabel), 0)
-        all_shuff_num = np.random.permutation(len(all_data))
-        all_data = all_data[all_shuff_num]
-        all_label = all_label[all_shuff_num]
-
-        self.allData = all_data[:516]
-        self.allLabel = all_label[:516]
-        self.testData = all_data[516:]
-        self.testLabel = all_label[516:]
-
         # standardize
         target_mean = np.mean(self.allData)
         target_std = np.std(self.allData)
