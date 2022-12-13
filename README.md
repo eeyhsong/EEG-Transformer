@@ -1,3 +1,5 @@
+## The v1.0 has been discontinued, please refer to [v2.0](https://github.com/eeyhsong/EEG-Conformer)
+
 ### EEG Transformer 2.0 will coming soon with extremely good performance! 
 #### Your next backbone for EEG decoding.
 p.s. released before Nov. 2022 I guess.
