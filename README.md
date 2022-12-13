@@ -1,4 +1,4 @@
-## The v1.0 has been discontinued, please refer to v2.0 [EEG Conformer](https://github.com/eeyhsong/EEG-Conformer).
+## The v1.0 has been discontinued, please refer to v2.0 - [EEG Conformer](https://github.com/eeyhsong/EEG-Conformer).
 &nbsp;
 &nbsp;
 
