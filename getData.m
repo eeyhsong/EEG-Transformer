@@ -71,6 +71,13 @@ fc = 250; % sampling rate
 Wl = 4; Wh = 40; % pass band
 Wn = [Wl*2 Wh*2]/fc;
 [b,a]=cheby2(6,60,Wn);
+
+% a better filter for 4-40 Hz band-pass
+% fc = 250;
+% Wl = 4; Wh = 40; 
+% Wn = [Wl*2 Wh*2]/fc;
+% [b,a]=cheby2(8,20,Wn);
+
 for j = 1:288
     data_1(:,:,j) = filtfilt(b,a,data_1(:,:,j));
     data_2(:,:,j) = filtfilt(b,a,data_2(:,:,j));
